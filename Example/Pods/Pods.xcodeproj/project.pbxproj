@@ -1,0 +1,759 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E0D402C0A3AA528C9CE41DD4D5DD61F /* KVPalette-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 66E6F8460F24DE3F7B690BC948B890CD /* KVPalette-dummy.m */; };
+		2EA391B46E9478025299D38F20129BBE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EF69B6A6F81A74C527E0EC00C8B02A5 /* ReplaceMe.m */; };
+		50B9B7A0C0C93DCF16DB27E1D3719A44 /* Palette.m in Sources */ = {isa = PBXBuildFile; fileRef = F6D07205974F1F0BE3B021F71DC43FDB /* Palette.m */; };
+		5AA34BF7DA35E5D230E9247E9391C2C1 /* HSVWithNew.h in Headers */ = {isa = PBXBuildFile; fileRef = FF281638EF2CB87FE056FA048F239D5B /* HSVWithNew.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		754FFB493D3FAB547047EEB41B10CC34 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		76FBB5E31268113E4142B754B309BF8E /* KVPalette-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E3A846C45CE66751DA19ECE7DC63657 /* KVPalette-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E412FDD2D891238C26C8FEAE7DDFE50 /* Pods-KVPalette_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F09AFC01E8673CA850A9FF8F12B35894 /* Pods-KVPalette_Example-dummy.m */; };
+		96D21BC35D8F80F6149BE0AA537A07D7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		97F1B17C8B7433EA4EF317CD31A6C254 /* Pods-KVPalette_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 133BB23C8179D9ADD99BD7232CFE850F /* Pods-KVPalette_Tests-dummy.m */; };
+		9B174E59ACA70A30E40BA9BFA4D76F29 /* Pods-KVPalette_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C9C7A0765F60B2F74E0493B14D7C3147 /* Pods-KVPalette_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B3527FB3E90AE9377ADFD356E1C87052 /* HSVWithNew.c in Sources */ = {isa = PBXBuildFile; fileRef = D569D470176C84BDF286D03AE46CC87A /* HSVWithNew.c */; };
+		C0C0E808C2DB3D1F8084C5663EF5AD0C /* Pods-KVPalette_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 73CAC0B8062E7515F8D9AF6E895D5ACE /* Pods-KVPalette_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DCB10CC3F1AB74BFE55E3EDAE9BAA39E /* Palette.h in Headers */ = {isa = PBXBuildFile; fileRef = 7F77A7F222F0CEB3D8F235D3F59430B3 /* Palette.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCA3F2B7C2052D8F8063F746FEA6E801 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		32D98016A2537CAABF8D87292283035B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09C1DFD2CCF0398F611EDE63DB5F67C;
+			remoteInfo = "Pods-KVPalette_Example";
+		};
+		571004B906F4B1FB5E7AD4331D362F3D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0055E08333F30F2F26DBC13616AE2CD;
+			remoteInfo = KVPalette;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02D2913994775F57AC08403FB4242419 /* KVPalette.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = KVPalette.modulemap; sourceTree = "<group>"; };
+		133BB23C8179D9ADD99BD7232CFE850F /* Pods-KVPalette_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVPalette_Tests-dummy.m"; sourceTree = "<group>"; };
+		21D13A6347F71212907C328CF1FB6E6B /* Pods-KVPalette_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVPalette_Tests-resources.sh"; sourceTree = "<group>"; };
+		23776F55ADC877E88D7402C30EA3FB01 /* Pods-KVPalette_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPalette_Example.release.xcconfig"; sourceTree = "<group>"; };
+		27E5F39FDE59D241473F676413AE5E50 /* Pods-KVPalette_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVPalette_Example-resources.sh"; sourceTree = "<group>"; };
+		3171C06696F236EAC4D0878A61F9CF7E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34B17AFA6619574FFFC7DB2C121006DB /* Pods-KVPalette_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVPalette_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3E3A846C45CE66751DA19ECE7DC63657 /* KVPalette-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPalette-umbrella.h"; sourceTree = "<group>"; };
+		48729CEE2A8DE4E34B08A98DAD049B5F /* Pods_KVPalette_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVPalette_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B16528CED411884B272E341FA204A41 /* Pods-KVPalette_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVPalette_Tests.modulemap"; sourceTree = "<group>"; };
+		5E5AFAD6FE2B310E4AECA9D9F8272FB4 /* Pods-KVPalette_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPalette_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		6424101057FAC312954E360A7DEBEBF4 /* Pods-KVPalette_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPalette_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66E6F8460F24DE3F7B690BC948B890CD /* KVPalette-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "KVPalette-dummy.m"; sourceTree = "<group>"; };
+		693592B82965A779ADB0DC545EDF9F7C /* Pods-KVPalette_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPalette_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73CAC0B8062E7515F8D9AF6E895D5ACE /* Pods-KVPalette_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVPalette_Tests-umbrella.h"; sourceTree = "<group>"; };
+		78476F4F65A44F2CE55DB8A71ABD5AFF /* KVPalette.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = KVPalette.xcconfig; sourceTree = "<group>"; };
+		7A1D6B47517EE40D41FD3786A28216B9 /* Pods-KVPalette_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVPalette_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		7F77A7F222F0CEB3D8F235D3F59430B3 /* Palette.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Palette.h; path = KVPalette/Classes/Palette.h; sourceTree = "<group>"; };
+		822737ADAF514CA02A8201E6E7316849 /* Pods_KVPalette_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KVPalette_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		84E4335FCD9C989EACFD7AC4F50376FB /* Pods-KVPalette_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-KVPalette_Example-frameworks.sh"; sourceTree = "<group>"; };
+		8596290B31110E5A38AD5C4DE44FC945 /* Pods-KVPalette_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-KVPalette_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		902A88E7B2BEA6DF3972520DBEC54B99 /* Pods-KVPalette_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-KVPalette_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		99C9B885FDD7B3097E227107CA97624E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9EF69B6A6F81A74C527E0EC00C8B02A5 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = KVPalette/Classes/ReplaceMe.m; sourceTree = "<group>"; };
+		A07A7A4E7CA9E8D61906A554275C6787 /* KVPalette.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = KVPalette.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A889173C34323761A35747F97F343E28 /* KVPalette-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "KVPalette-prefix.pch"; sourceTree = "<group>"; };
+		A8D60828638B0E5FF98792381EA1B31D /* Pods-KVPalette_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-KVPalette_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C8CF3FC8F850FA137A24A6B5F4806E0B /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
+		C9C7A0765F60B2F74E0493B14D7C3147 /* Pods-KVPalette_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-KVPalette_Example-umbrella.h"; sourceTree = "<group>"; };
+		CD46DC7A8779A8239BB3DD8A66A8CF49 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		D569D470176C84BDF286D03AE46CC87A /* HSVWithNew.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = HSVWithNew.c; path = KVPalette/Classes/HSVWithNew.c; sourceTree = "<group>"; };
+		E9F161FD3D53C04925E226603831D841 /* Pods-KVPalette_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-KVPalette_Example.modulemap"; sourceTree = "<group>"; };
+		F09AFC01E8673CA850A9FF8F12B35894 /* Pods-KVPalette_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-KVPalette_Example-dummy.m"; sourceTree = "<group>"; };
+		F5340879C196C30DAA9EBDC1F1BC0662 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6361113E5CE3551B30AC34F5CA2FAFB /* KVPalette.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; path = KVPalette.podspec; sourceTree = "<group>"; };
+		F6D07205974F1F0BE3B021F71DC43FDB /* Palette.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = Palette.m; path = KVPalette/Classes/Palette.m; sourceTree = "<group>"; };
+		FF281638EF2CB87FE056FA048F239D5B /* HSVWithNew.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = HSVWithNew.h; path = KVPalette/Classes/HSVWithNew.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D9F3D3086967B5804522980791D4562 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCA3F2B7C2052D8F8063F746FEA6E801 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0DB179FA37660DDE585A01B6330F4DEC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				96D21BC35D8F80F6149BE0AA537A07D7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB41607D38EA84C570FD18CCD6420036 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				754FFB493D3FAB547047EEB41B10CC34 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0984040E3F4B2CACFEC8179E8A2A23DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A07A7A4E7CA9E8D61906A554275C6787 /* KVPalette.framework */,
+				48729CEE2A8DE4E34B08A98DAD049B5F /* Pods_KVPalette_Example.framework */,
+				822737ADAF514CA02A8201E6E7316849 /* Pods_KVPalette_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		34703A27C4F126BDCF02BE0A118B8B40 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				F6361113E5CE3551B30AC34F5CA2FAFB /* KVPalette.podspec */,
+				C8CF3FC8F850FA137A24A6B5F4806E0B /* LICENSE */,
+				CD46DC7A8779A8239BB3DD8A66A8CF49 /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		6E8CAC3D1C3FADB8D6A2E44A3CE12E05 /* KVPalette */ = {
+			isa = PBXGroup;
+			children = (
+				D569D470176C84BDF286D03AE46CC87A /* HSVWithNew.c */,
+				FF281638EF2CB87FE056FA048F239D5B /* HSVWithNew.h */,
+				7F77A7F222F0CEB3D8F235D3F59430B3 /* Palette.h */,
+				F6D07205974F1F0BE3B021F71DC43FDB /* Palette.m */,
+				9EF69B6A6F81A74C527E0EC00C8B02A5 /* ReplaceMe.m */,
+				34703A27C4F126BDCF02BE0A118B8B40 /* Pod */,
+				7EBC9D0A03E3909269DDD4ABAEF08E4B /* Support Files */,
+			);
+			name = KVPalette;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6F9701AA6486DEB08F4A0AA37AEC6A25 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6E8CAC3D1C3FADB8D6A2E44A3CE12E05 /* KVPalette */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7BE425E64C6E949A4E19122B65CEC04A /* Pods-KVPalette_Example */ = {
+			isa = PBXGroup;
+			children = (
+				F5340879C196C30DAA9EBDC1F1BC0662 /* Info.plist */,
+				E9F161FD3D53C04925E226603831D841 /* Pods-KVPalette_Example.modulemap */,
+				34B17AFA6619574FFFC7DB2C121006DB /* Pods-KVPalette_Example-acknowledgements.markdown */,
+				902A88E7B2BEA6DF3972520DBEC54B99 /* Pods-KVPalette_Example-acknowledgements.plist */,
+				F09AFC01E8673CA850A9FF8F12B35894 /* Pods-KVPalette_Example-dummy.m */,
+				84E4335FCD9C989EACFD7AC4F50376FB /* Pods-KVPalette_Example-frameworks.sh */,
+				27E5F39FDE59D241473F676413AE5E50 /* Pods-KVPalette_Example-resources.sh */,
+				C9C7A0765F60B2F74E0493B14D7C3147 /* Pods-KVPalette_Example-umbrella.h */,
+				A8D60828638B0E5FF98792381EA1B31D /* Pods-KVPalette_Example.debug.xcconfig */,
+				23776F55ADC877E88D7402C30EA3FB01 /* Pods-KVPalette_Example.release.xcconfig */,
+			);
+			name = "Pods-KVPalette_Example";
+			path = "Target Support Files/Pods-KVPalette_Example";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				6F9701AA6486DEB08F4A0AA37AEC6A25 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				0984040E3F4B2CACFEC8179E8A2A23DE /* Products */,
+				B606AEE60CBB0017BE875BC9F8BEC31B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7EBC9D0A03E3909269DDD4ABAEF08E4B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3171C06696F236EAC4D0878A61F9CF7E /* Info.plist */,
+				02D2913994775F57AC08403FB4242419 /* KVPalette.modulemap */,
+				78476F4F65A44F2CE55DB8A71ABD5AFF /* KVPalette.xcconfig */,
+				66E6F8460F24DE3F7B690BC948B890CD /* KVPalette-dummy.m */,
+				A889173C34323761A35747F97F343E28 /* KVPalette-prefix.pch */,
+				3E3A846C45CE66751DA19ECE7DC63657 /* KVPalette-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/KVPalette";
+			sourceTree = "<group>";
+		};
+		86000220E85C9BAD0CBABE0D598BC82C /* Pods-KVPalette_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				99C9B885FDD7B3097E227107CA97624E /* Info.plist */,
+				4B16528CED411884B272E341FA204A41 /* Pods-KVPalette_Tests.modulemap */,
+				8596290B31110E5A38AD5C4DE44FC945 /* Pods-KVPalette_Tests-acknowledgements.markdown */,
+				693592B82965A779ADB0DC545EDF9F7C /* Pods-KVPalette_Tests-acknowledgements.plist */,
+				133BB23C8179D9ADD99BD7232CFE850F /* Pods-KVPalette_Tests-dummy.m */,
+				7A1D6B47517EE40D41FD3786A28216B9 /* Pods-KVPalette_Tests-frameworks.sh */,
+				21D13A6347F71212907C328CF1FB6E6B /* Pods-KVPalette_Tests-resources.sh */,
+				73CAC0B8062E7515F8D9AF6E895D5ACE /* Pods-KVPalette_Tests-umbrella.h */,
+				5E5AFAD6FE2B310E4AECA9D9F8272FB4 /* Pods-KVPalette_Tests.debug.xcconfig */,
+				6424101057FAC312954E360A7DEBEBF4 /* Pods-KVPalette_Tests.release.xcconfig */,
+			);
+			name = "Pods-KVPalette_Tests";
+			path = "Target Support Files/Pods-KVPalette_Tests";
+			sourceTree = "<group>";
+		};
+		B606AEE60CBB0017BE875BC9F8BEC31B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7BE425E64C6E949A4E19122B65CEC04A /* Pods-KVPalette_Example */,
+				86000220E85C9BAD0CBABE0D598BC82C /* Pods-KVPalette_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		6DF9050936C76C82188323C5960FD722 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C0C0E808C2DB3D1F8084C5663EF5AD0C /* Pods-KVPalette_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8BD0021CECBAD46750E3BC84D8B99E97 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9B174E59ACA70A30E40BA9BFA4D76F29 /* Pods-KVPalette_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A48B9F2F88FF8890625811603496A957 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5AA34BF7DA35E5D230E9247E9391C2C1 /* HSVWithNew.h in Headers */,
+				76FBB5E31268113E4142B754B309BF8E /* KVPalette-umbrella.h in Headers */,
+				DCB10CC3F1AB74BFE55E3EDAE9BAA39E /* Palette.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		657AEC0F61C78815D3D978DFB37CA24E /* Pods-KVPalette_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 827BE5B59700141B9FE0E144733FBD7C /* Build configuration list for PBXNativeTarget "Pods-KVPalette_Tests" */;
+			buildPhases = (
+				21B8058C504358E10DBBDD252DB28651 /* Sources */,
+				FB41607D38EA84C570FD18CCD6420036 /* Frameworks */,
+				6DF9050936C76C82188323C5960FD722 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				357D97E5F8FD0BE9FB4233F709E4B593 /* PBXTargetDependency */,
+			);
+			name = "Pods-KVPalette_Tests";
+			productName = "Pods-KVPalette_Tests";
+			productReference = 822737ADAF514CA02A8201E6E7316849 /* Pods_KVPalette_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0055E08333F30F2F26DBC13616AE2CD /* KVPalette */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D1702EA7D3F52F1CF82510D9B8E1EF5 /* Build configuration list for PBXNativeTarget "KVPalette" */;
+			buildPhases = (
+				274E559FE4655074006D82609BE95DA4 /* Sources */,
+				0DB179FA37660DDE585A01B6330F4DEC /* Frameworks */,
+				A48B9F2F88FF8890625811603496A957 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KVPalette;
+			productName = KVPalette;
+			productReference = A07A7A4E7CA9E8D61906A554275C6787 /* KVPalette.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F09C1DFD2CCF0398F611EDE63DB5F67C /* Pods-KVPalette_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7831A25A6DCEDA4DDE87795A3CEFC147 /* Build configuration list for PBXNativeTarget "Pods-KVPalette_Example" */;
+			buildPhases = (
+				E44124CBB2878017479E283261D807FC /* Sources */,
+				0D9F3D3086967B5804522980791D4562 /* Frameworks */,
+				8BD0021CECBAD46750E3BC84D8B99E97 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7FAB27DB190EA414DA4289C7E1D865B8 /* PBXTargetDependency */,
+			);
+			name = "Pods-KVPalette_Example";
+			productName = "Pods-KVPalette_Example";
+			productReference = 48729CEE2A8DE4E34B08A98DAD049B5F /* Pods_KVPalette_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 0984040E3F4B2CACFEC8179E8A2A23DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0055E08333F30F2F26DBC13616AE2CD /* KVPalette */,
+				F09C1DFD2CCF0398F611EDE63DB5F67C /* Pods-KVPalette_Example */,
+				657AEC0F61C78815D3D978DFB37CA24E /* Pods-KVPalette_Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21B8058C504358E10DBBDD252DB28651 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				97F1B17C8B7433EA4EF317CD31A6C254 /* Pods-KVPalette_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		274E559FE4655074006D82609BE95DA4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B3527FB3E90AE9377ADFD356E1C87052 /* HSVWithNew.c in Sources */,
+				2E0D402C0A3AA528C9CE41DD4D5DD61F /* KVPalette-dummy.m in Sources */,
+				50B9B7A0C0C93DCF16DB27E1D3719A44 /* Palette.m in Sources */,
+				2EA391B46E9478025299D38F20129BBE /* ReplaceMe.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E44124CBB2878017479E283261D807FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7E412FDD2D891238C26C8FEAE7DDFE50 /* Pods-KVPalette_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		357D97E5F8FD0BE9FB4233F709E4B593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-KVPalette_Example";
+			target = F09C1DFD2CCF0398F611EDE63DB5F67C /* Pods-KVPalette_Example */;
+			targetProxy = 32D98016A2537CAABF8D87292283035B /* PBXContainerItemProxy */;
+		};
+		7FAB27DB190EA414DA4289C7E1D865B8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = KVPalette;
+			target = E0055E08333F30F2F26DBC13616AE2CD /* KVPalette */;
+			targetProxy = 571004B906F4B1FB5E7AD4331D362F3D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AE7A8F126FEFD5D0FB332DEED0C99F9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78476F4F65A44F2CE55DB8A71ABD5AFF /* KVPalette.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVPalette/KVPalette-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVPalette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVPalette/KVPalette.modulemap";
+				PRODUCT_MODULE_NAME = KVPalette;
+				PRODUCT_NAME = KVPalette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		3BD5C37274FBDBC5751D82C7D9CA56A9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 78476F4F65A44F2CE55DB8A71ABD5AFF /* KVPalette.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/KVPalette/KVPalette-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/KVPalette/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/KVPalette/KVPalette.modulemap";
+				PRODUCT_MODULE_NAME = KVPalette;
+				PRODUCT_NAME = KVPalette;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		3ED80281374F034CDFEEC579BC038F26 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6424101057FAC312954E360A7DEBEBF4 /* Pods-KVPalette_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPalette_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPalette_Tests/Pods-KVPalette_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		932DC4BB98D1B6A05F3F6B8064FBBCA5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A8D60828638B0E5FF98792381EA1B31D /* Pods-KVPalette_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPalette_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPalette_Example/Pods-KVPalette_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9FECCCC2203F9256389E3A123A16CEC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5E5AFAD6FE2B310E4AECA9D9F8272FB4 /* Pods-KVPalette_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPalette_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPalette_Tests/Pods-KVPalette_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A8EFF9F879F14FA06D97325267BE1261 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23776F55ADC877E88D7402C30EA3FB01 /* Pods-KVPalette_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-KVPalette_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-KVPalette_Example/Pods-KVPalette_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		B42B54097A876E8A982CBF5DAA91B1AB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_ALLOWED = NO;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D1702EA7D3F52F1CF82510D9B8E1EF5 /* Build configuration list for PBXNativeTarget "KVPalette" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3BD5C37274FBDBC5751D82C7D9CA56A9 /* Debug */,
+				0AE7A8F126FEFD5D0FB332DEED0C99F9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B33C5230DE4A9DFA6D8F46505DD7AF7 /* Debug */,
+				B42B54097A876E8A982CBF5DAA91B1AB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7831A25A6DCEDA4DDE87795A3CEFC147 /* Build configuration list for PBXNativeTarget "Pods-KVPalette_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				932DC4BB98D1B6A05F3F6B8064FBBCA5 /* Debug */,
+				A8EFF9F879F14FA06D97325267BE1261 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		827BE5B59700141B9FE0E144733FBD7C /* Build configuration list for PBXNativeTarget "Pods-KVPalette_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9FECCCC2203F9256389E3A123A16CEC4 /* Debug */,
+				3ED80281374F034CDFEEC579BC038F26 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

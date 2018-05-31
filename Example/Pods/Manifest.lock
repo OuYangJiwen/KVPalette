@@ -1,0 +1,16 @@
+PODS:
+  - KVPalette (0.1.0)
+
+DEPENDENCIES:
+  - KVPalette (from `../`)
+
+EXTERNAL SOURCES:
+  KVPalette:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  KVPalette: 8c40ed07b724f3030c01f023de797ee896f6f5ef
+
+PODFILE CHECKSUM: faca204a0547415270ec5508405a880b62cf219a
+
+COCOAPODS: 1.5.3

@@ -1,0 +1,6 @@
+framework module KVPalette {
+  umbrella header "KVPalette-umbrella.h"
+
+  export *
+  module * { export * }
+}
