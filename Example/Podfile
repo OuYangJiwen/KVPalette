@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'KVPalette_Example' do
+  pod 'KVPalette', :path => '../'
+
+  target 'KVPalette_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
